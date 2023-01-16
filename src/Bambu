@@ -1,0 +1,12 @@
+crete table cliente;
+create table cliente (
+    id_cliente int not null,
+    Primer_nom varchar (20) not null,
+    Segundo_nom varchar (20),
+    Primer_apell varchar (20) not null,
+    segundo_apell varchar (20),
+    edad int not null,
+    sexo boleam not null,
+    estatura real not null
+);
+
